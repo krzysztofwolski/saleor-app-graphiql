@@ -5,22 +5,6 @@ body {
   padding: 1rem 2rem;
 }
 
-code {
-  background: #f6f8fa;
-  border: 1px solid #eaeaea;
-  border-radius: 5px;
-  display: inline-block;
-  margin-top: 10px;
-  padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-code::before {
-  content: "$ ";
-  opacity: 0.6;
-}
-
-li {
-  padding-bottom: 1rem;
+.CodeMirror {
+  font-size: small !important;
 }

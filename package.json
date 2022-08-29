@@ -1,6 +1,6 @@
 {
-  "name": "saleor-app-template",
-  "version": "0.1.0",
+  "name": "graphiql-app",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "pnpm generate && NODE_OPTIONS='--inspect' next dev",
@@ -15,7 +15,7 @@
     "schemaVersion": "3.4"
   },
   "saleorApp": {
-    "name": "My Saleor App",
+    "name": "graphiql-app",
     "logo": "/public/logo.png",
     "shortDescription": "Bare-bones boilerplate for writing Saleor Apps with Next.js & MacawUI",
     "sourceUrl": "https://github.com/",
@@ -48,6 +48,7 @@
     "@saleor/macaw-ui": "^0.6.3",
     "@sentry/nextjs": "^7.6.0",
     "@urql/exchange-auth": "^0.1.7",
+    "graphiql": "^2.0.3",
     "graphql": "^16.5.0",
     "graphql-tag": "^2.12.6",
     "jose": "^4.8.3",
